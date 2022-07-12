@@ -10,4 +10,4 @@ db = SQLAlchemy(app)
 login_manager = LoginManager(app)
 bcrypt = Bcrypt(app)
 
-from status_page import routes
+from flask_boilerplate import routes
